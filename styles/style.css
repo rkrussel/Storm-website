@@ -1,0 +1,39 @@
+body {
+    margin:0px 0px;
+    padding:0px 0px
+ }
+ .container-fluid {
+     padding:0;
+ }
+
+.landingWrapper {
+    margin:0;
+    width:100%;
+}
+.landing {
+    width:100%;
+    margin:0;
+    background-size:cover;
+    position:relative;
+    height:75vh;
+    background-repeat: no-repeat;
+    background-image:url('../images/Ethan.JPG');
+}
+.header {
+    color:white;
+    text-align: center;
+    width:100%;
+    position:absolute;
+    top:50%;
+    font-size:36px;
+}
+
+.footer {
+    background: linear-gradient(blue, darkBlue);
+    color:white;
+    text-align: center;
+    width:100%;
+    margin-top:30px;
+    margin-bottom:-10px;
+    min-height:100px;
+}
