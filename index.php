@@ -18,49 +18,55 @@
 </head>
 
 <body>
-    
     <div class="container-fluid">
-        <nav class="navbar fixed-top navbar-expand-md bg-light navbar-light">
+        <nav class="navbar fixed-top navbar-expand-md navbar-default">
   <!-- Brand -->
-  <a class="navbar-brand" href="#">Navbar</a>
-
+        <span class="navbar-brand">Colorado Storm</span>
   <!-- Toggler/collapsibe Button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
   <!-- Navbar links -->
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Roster</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="#">Events</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
       </li> 
     </ul>
   </div> 
 </nav>
-       
-
-        <div class="landingWrapper">
-            <div class="landing">
-                <div class="header">
-                    <h1>Home of the Storm</h1>
-                </div>
+    <div class="landingWrapper">
+        <div class="landing">
+            <div class="header">
+                <h1>Welcome to the Home of the Storm</h1>
+                <p>Click here to learn more about the Colorado Storm, Beep Baseball,
+                and how you can become involved or donate.
+                </p>
+                <button class='mainButton'>Learn More</button>
             </div>
         </div>
-        <div class="content">
-            <?php 
-            $test = "hello";
-            echo $test; 
-            ?>
-        </div>
-
     </div>
+    <div class="content">
+        <?php 
+        $test = "hello";
+        echo $test; 
+        ?>
+    </div>
+
+</div>
     <footer class="footer">
         <div class="icons">
             adsadf

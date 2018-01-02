@@ -6,26 +6,51 @@ body {
      padding:0;
  }
 
+ .navbar-default {
+     background-color:blue;
+     color:white;
+ }
+ 
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+ nav, button {
+     color:white;
+ }
+ nav, a{
+     color:white;
+ }
+ nav, a:hover {
+     text-decoration: none;
+     color:blue;
+     background-color:white;
+     width:100%;
+ }
+
+
 .landingWrapper {
     margin:0;
-    width:100%;
-}
-.landing {
-    width:100%;
-    margin:0;
     background-size:cover;
-    position:relative;
-    height:75vh;
+    background-position:center;
+    height:100vh;
     background-repeat: no-repeat;
     background-image:url('../images/Ethan.JPG');
 }
+
 .header {
     color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
     text-align: center;
     width:100%;
     position:absolute;
-    top:50%;
-    font-size:36px;
+    top:30%;
+}
+.mainButton {
+    background-color:white;
+    color:blue;
+    border-radius:20px;
 }
 
 .footer {
